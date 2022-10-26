@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<DATABASE NAME="Test Database" ID="{5FB8C914-168C-4B9B-8256-DF8A0F384E3E}">
+    <LIBRARY>
+        <SHIM NAME="AcceptEula" FILE="AcRes.dll" RUNTIME_PLATFORM="X86_ANY,AMD64" ID="{92E61B85-313A-4880-B6E4-DEF2567413AD}"/>
+        <SHIM NAME="FakeSchTask" FILE="AcRes.dll" RUNTIME_PLATFORM="X86_ANY,AMD64" ID="{C1CAD7E2-ACAC-4467-8A6A-D437C51D5918}"/>
+    </LIBRARY>
+    <APP NAME="Winobj" ID="{CC4BFC0C-5815-4F08-99C7-4ED13E611FAB}">
+        <EXE NAME="Winobj.exe" RUNTIME_PLATFORM="X86_ANY" PRODUCT_NAME="Sysinternals Winobj" ID="{B49373D9-BC1E-4941-A43B-7B5814C23D93}">
+            <SHIM NAME="AcceptEula"/>
+        </EXE>
+    </APP>
+    <APP NAME="AccessChk" ID="{D45B7077-34B6-463B-B046-38FC68B13430}">
+        <EXE NAME="accesschk.exe" RUNTIME_PLATFORM="X86_ANY" PRODUCT_NAME="Sysinternals AccessChk" ID="{E79328FD-855A-4D8A-92A3-F502E831BD1B}">
+            <SHIM NAME="AcceptEula"/>
+        </EXE>
+        <EXE NAME="accesschk64.exe" RUNTIME_PLATFORM="AMD64" PRODUCT_NAME="Sysinternals AccessChk" ID="{9B67E542-8B80-48D6-B6B9-55616BBDA743}">
+            <SHIM NAME="AcceptEula"/>
+        </EXE>
+    </APP>
+    <APP NAME="Autoruns" ID="{23897D6A-04BA-43D3-879F-C0F1E934635E}">
+        <EXE NAME="autorunsc.exe" RUNTIME_PLATFORM="X86_ANY" PRODUCT_NAME="Sysinternals autoruns" ID="{12A4EE20-93F4-4C55-B594-A0ABCD3C3283}">
+            <SHIM NAME="FakeSchTask"/>
+        </EXE>
+        <EXE NAME="autoruns.exe" RUNTIME_PLATFORM="X86_ANY" PRODUCT_NAME="Sysinternals autoruns" ID="{6C4947F7-A387-443D-BB1A-D5BD7C42F908}">
+            <SHIM NAME="FakeSchTask" COMMAND_LINE="It's a FAAAAAKE!"/>
+        </EXE>
+        <EXE NAME="Autoruns64.exe" RUNTIME_PLATFORM="AMD64" PRODUCT_NAME="Sysinternals autoruns" ID="{27AB1563-F153-4CF7-A444-0092750CF0FE}">
+            <SHIM NAME="FakeSchTask" COMMAND_LINE="It's a 64-bit FAAAAAKE!"/>
+        </EXE>
+    </APP>
+</DATABASE>
