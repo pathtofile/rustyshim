@@ -1,0 +1,28 @@
+{
+  "name": "example.sdb",
+  "data": [
+    {"tag": "TAG_DATABASE", "type": "LIST", "value": [
+      {"tag": "TAG_OS_PLATFORM", "type": "DWORD", "value": 4 },
+      {"tag": "TAG_NAME", "type": "STRING", "value": "rsshim" },
+      {"tag": "TAG_DATABASE_ID", "type": "GUID", "value": "{5b368b98-e1fb-4259-bb71-562c10120830}" },
+      {"tag": "TAG_LIBRARY", "type": "LIST", "value": [
+        {"tag": "TAG_SHIM", "type": "LIST", "value": [
+          {"tag": "TAG_NAME", "type": "STRING", "value": "rsshimdll" },
+          {"tag": "TAG_DLLFILE", "type": "STRING", "value": "AcRes.dll" },
+          {"tag": "TAG_FIX_ID", "type": "STRING", "value": "shim_func" },
+          {"tag": "TAG_RUNTIME_PLATFORM", "type": "DWORD", "value": 39 },
+          {"type": "NULL", "tag": "TAG_GENERAL"}
+        ]}
+      ]},
+      {"tag": "TAG_EXE", "type": "LIST", "value": [
+        {"tag": "TAG_NAME", "type": "STRING", "value": "shimee.exe" },
+        {"tag": "TAG_WILDCARD_NAME", "type": "STRING", "value": "shimee.exe" },
+        {"tag": "TAG_RUNTIME_PLATFORM", "type": "DWORD", "value": 39 },
+        {"tag": "TAG_EXE_ID", "type": "GUID", "value": "{5b1f2e34-ba7d-4af6-84a0-560938841e84}" },
+        {"tag": "TAG_SHIM_REF", "type": "LIST", "value": [
+          {"tag": "TAG_NAME", "type": "STRING", "value": "rsshimdll" }
+        ]}
+      ]}
+    ]}
+  ]
+}

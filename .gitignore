@@ -1,0 +1,6 @@
+/target
+*.pyc
+*.json
+!example.json
+*.sdb
+*.xml

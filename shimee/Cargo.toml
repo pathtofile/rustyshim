@@ -1,0 +1,9 @@
+[package]
+name = "shimee"
+version = { workspace = true }
+authors = { workspace = true }
+description = { workspace = true }
+edition = { workspace = true }
+
+[dependencies.windows]
+workspace = true
